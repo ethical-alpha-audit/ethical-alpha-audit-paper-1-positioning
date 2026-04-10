@@ -1,0 +1,8 @@
+Framework,Explicit deployment decision rule,Aggregation logic specified,Override pathway specified,Final deployment authority assigned
+FUTURE-AI [26],Not specified,Not specified,Not specified,Partial (process ownership)
+TEHAI [28],Not specified,Not specified,Not specified,Not specified
+NICE ESF [5],Not specified,Not specified,Not specified,Partial
+FDA AI-DSF [27],Not applicable (regulatory submission),Not specified,Not specified,Partial
+EU AI Act [3],Not specified as institutional decision rule,Not specified,Not specified,Yes (provider/deployer obligations)
+ISO/IEC 42001 [4],Not specified,Not specified,Not specified,Yes (management system owner)
+This Viewpoint,Specified,Specified (minimum floors),Specified (constrained),Specified

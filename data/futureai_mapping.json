@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "source": "Relationship to FUTURE-AI and Recent Governance Literature section, Paper1_Manuscript.docx",
+    "description": "Mapping of FUTURE-AI consensus guideline principles to governance gate domains",
+    "note": "This is the author's interpretive mapping. The gate architecture does not compete with FUTURE-AI; it provides the decision-theoretic layer that converts FUTURE-AI evidence into an institutional deployment decision."
+  },
+  "mappings": [
+    {
+      "futureai_principle": "Fairness",
+      "gate_domain": "Gate 2 (Bias and Equity Oversight)",
+      "alignment_note": "Fairness aligns with equity oversight requirements"
+    },
+    {
+      "futureai_principle": "Universality",
+      "gate_domain": "Gates 1-5 (cross-cutting)",
+      "alignment_note": "Universality spans multiple gate domains as a general design principle"
+    },
+    {
+      "futureai_principle": "Traceability",
+      "gate_domain": "Gate 3 (Documentation and Transparency)",
+      "alignment_note": "Traceability aligns with documentation requirements"
+    },
+    {
+      "futureai_principle": "Usability",
+      "gate_domain": "Gate 1 (Safety) and Gate 4 (Accountability)",
+      "alignment_note": "Usability aligns with safety validation and accountability structures"
+    },
+    {
+      "futureai_principle": "Robustness",
+      "gate_domain": "Gate 5 (Lifecycle Monitoring and Drift Management)",
+      "alignment_note": "Robustness aligns with monitoring requirements"
+    },
+    {
+      "futureai_principle": "Explainability",
+      "gate_domain": "Gate 3 (Documentation and Transparency)",
+      "alignment_note": "Explainability aligns with documentation and transparency requirements"
+    }
+  ]
+}

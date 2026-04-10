@@ -1,0 +1,15 @@
+name: eaa-paper1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - nbconvert>=7.0
+    - nbclient>=0.8
+    - nbformat>=5.0
+    - jupyter_client>=8.0
+    - ipykernel>=6.0
+    - pandas>=2.0
+    - matplotlib>=3.7

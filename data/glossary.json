@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "source": "Abbreviations section, Paper1_Manuscript.docx",
+    "description": "Abbreviations used in the manuscript"
+  },
+  "terms": [
+    {"abbreviation": "AI", "expansion": "artificial intelligence"},
+    {"abbreviation": "CONSORT-AI", "expansion": "Consolidated Standards of Reporting Trials for Artificial Intelligence"},
+    {"abbreviation": "DTAC", "expansion": "Digital Technology Assessment Criteria"},
+    {"abbreviation": "EU", "expansion": "European Union"},
+    {"abbreviation": "FDA", "expansion": "Food and Drug Administration"},
+    {"abbreviation": "MCDA", "expansion": "multi-criteria decision analysis"},
+    {"abbreviation": "MHRA", "expansion": "Medicines and Healthcare products Regulatory Agency"},
+    {"abbreviation": "NHS", "expansion": "National Health Service"},
+    {"abbreviation": "NICE", "expansion": "National Institute for Health and Care Excellence"},
+    {"abbreviation": "SaMD", "expansion": "software as a medical device"},
+    {"abbreviation": "TEHAI", "expansion": "Translational Ethics for Health AI"},
+    {"abbreviation": "FUTURE-AI", "expansion": "International consensus guideline for trustworthy and deployable AI in healthcare"},
+    {"abbreviation": "ESF", "expansion": "Evidence Standards Framework"},
+    {"abbreviation": "AI-DSF", "expansion": "AI-enabled Device Software Functions"}
+  ]
+}

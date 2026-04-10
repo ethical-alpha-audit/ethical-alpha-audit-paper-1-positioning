@@ -1,0 +1,37 @@
+{
+  "outputs/tables/table1_rendered.csv": {
+    "notebook": "notebooks/01_claim_traceability.ipynb",
+    "stm_targets": ["STM-T1", "STM-MA4", "STM-MA5"],
+    "role": "Decision-rule gap audit table rendering"
+  },
+  "outputs/tables/table2_rendered.csv": {
+    "notebook": "notebooks/02_framework_and_specification.ipynb",
+    "stm_targets": ["STM-T2"],
+    "role": "Risk-tiered thresholds table rendering"
+  },
+  "outputs/tables/gates_summary.csv": {
+    "notebook": "notebooks/02_framework_and_specification.ipynb",
+    "stm_targets": ["STM-CF2"],
+    "role": "Five-gate architecture summary"
+  },
+  "outputs/tables/futureai_alignment.csv": {
+    "notebook": "notebooks/02_framework_and_specification.ipynb",
+    "stm_targets": ["STM-CF5"],
+    "role": "FUTURE-AI to gate domain alignment mapping"
+  },
+  "outputs/figures/illustrative_compensation_example.png": {
+    "notebook": "notebooks/02_framework_and_specification.ipynb",
+    "stm_targets": ["STM-CF1"],
+    "role": "Illustrative compensatory vs non-compensatory comparison (SYNTHETIC)"
+  },
+  "outputs/tables/override_summary.csv": {
+    "notebook": "notebooks/03_override_and_illustration.ipynb",
+    "stm_targets": ["STM-CF3"],
+    "role": "Override pathway criteria and safeguards"
+  },
+  "outputs/logs/notebook_run_log.txt": {
+    "notebook": "notebooks/04_release_validation.ipynb",
+    "stm_targets": [],
+    "role": "Release validation log"
+  }
+}

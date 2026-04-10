@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "source": "Constrained Override Pathway and Preventing Override Accumulation sections, Paper1_Manuscript.docx",
+    "description": "Override criteria, safeguards, and provisional defaults for Gates 2-4"
+  },
+  "gates_eligible_for_override": [2, 3, 4],
+  "gates_non_overridable": [1, 5],
+  "operative_criteria": [
+    {
+      "number": 1,
+      "criterion": "Documented rationale from the accountable clinical lead"
+    },
+    {
+      "number": 2,
+      "criterion": "Maximum validity period of 90 days",
+      "provisional_note": "Proposed as a provisional pilot default requiring empirical calibration rather than a quasi-canonical value"
+    },
+    {
+      "number": 3,
+      "criterion": "Prospective monitoring plan specific to the gap"
+    },
+    {
+      "number": 4,
+      "criterion": "Board or governance committee approval producing a documented record"
+    }
+  ],
+  "accumulation_safeguards": [
+    {
+      "name": "Concurrent override limits",
+      "description": "A single AI system may not operate under more than one active override simultaneously",
+      "provisional_note": "Proposed as a provisional default; institutions may calibrate based on portfolio size and risk tolerance"
+    },
+    {
+      "name": "Institutional override registers",
+      "description": "All active overrides maintained in a single, auditable register visible to the governance committee"
+    },
+    {
+      "name": "Escalation triggers",
+      "description": "If more than two AI systems are operating under active overrides, or if any single gate generates overrides across more than 30% of deployed systems, the governance committee must convene a structural review",
+      "provisional_note": "30% is a proposed starting point requiring local calibration"
+    }
+  ],
+  "provisional_defaults": {
+    "validity_period_days": 90,
+    "concurrent_override_limit": 1,
+    "escalation_system_count": 2,
+    "escalation_gate_percentage": 30
+  }
+}

@@ -1,0 +1,7 @@
+FUTURE-AI Principle,Gate Domain,Alignment
+Fairness,Gate 2 (Bias and Equity Oversight),Fairness aligns with equity oversight requirements
+Universality,Gates 1-5 (cross-cutting),Universality spans multiple gate domains as a general design principle
+Traceability,Gate 3 (Documentation and Transparency),Traceability aligns with documentation requirements
+Usability,Gate 1 (Safety) and Gate 4 (Accountability),Usability aligns with safety validation and accountability structures
+Robustness,Gate 5 (Lifecycle Monitoring and Drift Management),Robustness aligns with monitoring requirements
+Explainability,Gate 3 (Documentation and Transparency),Explainability aligns with documentation and transparency requirements

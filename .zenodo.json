@@ -1,0 +1,24 @@
+{
+  "title": "Ethical Alpha Audit Paper 1: Non-Compensatory Governance Gates — Reproducibility Package",
+  "creators": [
+    {
+      "name": "Brown, Walter",
+      "affiliation": "Ethical Alpha Audit",
+      "orcid": "0000-0002-6050-8522"
+    }
+  ],
+  "description": "Reproducibility package for Paper 1: Non-Compensatory Governance Gates for Clinical AI Deployment. Contains manuscript bundle, explanatory notebooks, structured data extractions, and full QA provenance trail.",
+  "upload_type": "software",
+  "license": "MIT",
+  "keywords": [
+    "ethical alpha audit",
+    "health AI governance",
+    "non-compensatory decision rules",
+    "clinical AI deployment",
+    "governance gates",
+    "patient safety",
+    "reproducibility"
+  ],
+  "access_right": "open",
+  "version": "1.0.0"
+}

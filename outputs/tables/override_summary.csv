@@ -1,0 +1,8 @@
+Safeguard,Description,Provisional Note
+Concurrent override limits,A single AI system may not operate under more than one active override simultaneously,Proposed as a provisional default; institutions may calibrate based on portfolio size and risk tolerance
+Institutional override registers,"All active overrides maintained in a single, auditable register visible to the governance committee",
+Escalation triggers,"If more than two AI systems are operating under active overrides, or if any single gate generates overrides across more than 30% of deployed systems, the governance committee must convene a structural review",30% is a proposed starting point requiring local calibration
+Criterion 1,Documented rationale from the accountable clinical lead,
+Criterion 2,Maximum validity period of 90 days,Proposed as a provisional pilot default requiring empirical calibration rather than a quasi-canonical value
+Criterion 3,Prospective monitoring plan specific to the gap,
+Criterion 4,Board or governance committee approval producing a documented record,

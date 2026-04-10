@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "source": "Illustrative Application: Epic Sepsis Model section, Paper1_Manuscript.docx",
+    "description": "Illustrative gate-mapping of the Epic Sepsis Model case",
+    "epistemic_caveat": "This case does not demonstrate that gate logic would have produced a categorically better patient outcome — that claim is not empirically testable retrospectively."
+  },
+  "case": "Epic Sepsis Model",
+  "references": [
+    "Wong A, Otles E, Donnelly JP, et al. External validation of a widely implemented proprietary sepsis prediction model in hospitalized patients. JAMA Intern Med 2021;181:1065-70. [21]",
+    "Habibi R, Podolyak S, Giannini H, et al. Impact of a sepsis prediction model on clinician burden. J Gen Intern Med 2022;37:1629-36. [22]"
+  ],
+  "documented_findings": [
+    "External validation identified materially lower performance than vendor claims [21]",
+    "Clinician alert burden was identified as a significant operational concern [22]"
+  ],
+  "gate_mapping": [
+    {
+      "gate": 1,
+      "domain": "Clinical Safety and Validation",
+      "status": "FAIL",
+      "reason": "Lack of local calibration; materially lower performance than vendor claims in external validation"
+    },
+    {
+      "gate": 2,
+      "domain": "Bias and Equity Oversight",
+      "status": "NOT ASSESSED",
+      "reason": "Not specifically addressed in this illustrative application"
+    },
+    {
+      "gate": 3,
+      "domain": "Documentation and Transparency",
+      "status": "FAIL",
+      "reason": "Proprietary constraints limiting documentation transparency"
+    },
+    {
+      "gate": 4,
+      "domain": "Accountability and Decision Rights",
+      "status": "NOT ASSESSED",
+      "reason": "Not specifically addressed in this illustrative application"
+    },
+    {
+      "gate": 5,
+      "domain": "Lifecycle Monitoring and Drift Management",
+      "status": "FAIL",
+      "reason": "Absent alert-burden thresholds; no prespecified monitoring triggers"
+    }
+  ],
+  "summary": "Under a gate-based architecture, deployment-blocking failures would likely have surfaced at Gate 1 (Safety), Gate 3 (Documentation), and Gate 5 (Monitoring). Gates 1 and 5 are non-overridable, meaning no override pathway could have circumvented them."
+}

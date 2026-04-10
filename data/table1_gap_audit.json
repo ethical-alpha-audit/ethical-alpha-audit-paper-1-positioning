@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "source": "Table 1, Paper1_Manuscript.docx",
+    "description": "Decision-rule elements explicitly stated in selected clinical AI governance instruments (targeted document audit)",
+    "note": "All characterisations are the author's interpretive assessment"
+  },
+  "columns": [
+    "Framework",
+    "Explicit deployment decision rule",
+    "Aggregation logic specified",
+    "Override pathway specified",
+    "Final deployment authority assigned"
+  ],
+  "rows": [
+    {
+      "Framework": "FUTURE-AI [26]",
+      "Explicit deployment decision rule": "Not specified",
+      "Aggregation logic specified": "Not specified",
+      "Override pathway specified": "Not specified",
+      "Final deployment authority assigned": "Partial (process ownership)"
+    },
+    {
+      "Framework": "TEHAI [28]",
+      "Explicit deployment decision rule": "Not specified",
+      "Aggregation logic specified": "Not specified",
+      "Override pathway specified": "Not specified",
+      "Final deployment authority assigned": "Not specified"
+    },
+    {
+      "Framework": "NICE ESF [5]",
+      "Explicit deployment decision rule": "Not specified",
+      "Aggregation logic specified": "Not specified",
+      "Override pathway specified": "Not specified",
+      "Final deployment authority assigned": "Partial"
+    },
+    {
+      "Framework": "FDA AI-DSF [27]",
+      "Explicit deployment decision rule": "Not applicable (regulatory submission)",
+      "Aggregation logic specified": "Not specified",
+      "Override pathway specified": "Not specified",
+      "Final deployment authority assigned": "Partial"
+    },
+    {
+      "Framework": "EU AI Act [3]",
+      "Explicit deployment decision rule": "Not specified as institutional decision rule",
+      "Aggregation logic specified": "Not specified",
+      "Override pathway specified": "Not specified",
+      "Final deployment authority assigned": "Yes (provider/deployer obligations)"
+    },
+    {
+      "Framework": "ISO/IEC 42001 [4]",
+      "Explicit deployment decision rule": "Not specified",
+      "Aggregation logic specified": "Not specified",
+      "Override pathway specified": "Not specified",
+      "Final deployment authority assigned": "Yes (management system owner)"
+    },
+    {
+      "Framework": "This Viewpoint",
+      "Explicit deployment decision rule": "Specified",
+      "Aggregation logic specified": "Specified (minimum floors)",
+      "Override pathway specified": "Specified (constrained)",
+      "Final deployment authority assigned": "Specified"
+    }
+  ]
+}

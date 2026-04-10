@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source": "The Five Governance Gates section, Paper1_Manuscript.docx",
+    "description": "Five governance gate definitions with evidence floors and overridable status",
+    "note": "The five-domain decomposition reflects a convergence of requirements across the regulatory instruments reviewed."
+  },
+  "gates": [
+    {
+      "number": 1,
+      "domain": "Clinical Safety and Validation",
+      "overridable": false,
+      "minimum_evidence_floor": [
+        "External or temporal validation relevant to the deployment population [9]",
+        "Calibration assessment beyond discrimination [10]",
+        "Defined statement of intended use and clinical actionability"
+      ],
+      "rationale": "A system without evidence of deployment-context performance cannot be safely activated under any documented rationale."
+    },
+    {
+      "number": 2,
+      "domain": "Bias and Equity Oversight",
+      "overridable": true,
+      "minimum_evidence_floor": [
+        "Subgroup performance evaluation across socially salient characteristics [12]",
+        "Explicit statements about training-data representativeness [13]",
+        "Defined governance response for detected inequities"
+      ],
+      "rationale": "Risk that a system with acceptable aggregate performance produces systematically worse outcomes for specific subpopulations."
+    },
+    {
+      "number": 3,
+      "domain": "Documentation and Transparency",
+      "overridable": true,
+      "minimum_evidence_floor": [
+        "Model card or model facts label describing data provenance, exclusion criteria, and known risks [15,16]",
+        "Rigorous version control"
+      ],
+      "rationale": "Documentation fulfils both operational and transparency functions."
+    },
+    {
+      "number": 4,
+      "domain": "Accountability and Decision Rights",
+      "overridable": true,
+      "minimum_evidence_floor": [
+        "Named accountable owner with explicit suspension authority",
+        "Separation between procurement incentives and deployment authorisation [18]"
+      ],
+      "rationale": "Undefined accountability creates moral hazard."
+    },
+    {
+      "number": 5,
+      "domain": "Lifecycle Monitoring and Drift Management",
+      "overridable": false,
+      "minimum_evidence_floor": [
+        "Predefined metrics covering performance, calibration, and alert fatigue",
+        "Prespecified thresholds triggering formal review, pause, or withdrawal"
+      ],
+      "rationale": "A deployed system that cannot be monitored cannot be safely recalled when performance deteriorates."
+    }
+  ]
+}

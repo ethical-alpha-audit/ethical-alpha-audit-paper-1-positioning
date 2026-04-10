@@ -1,0 +1,6 @@
+Domain,Overridable,Standard Risk (Minimum Floor),Higher Risk (Enhanced Floor)
+Safety (G1),No,Intended-use statement; representative internal validation.,Prospective external validation; CONSORT-AI alignment [20].
+Equity (G2),Yes,Subgroup reporting across protected characteristics.,Intersectional analysis; documented mitigation plan; parity monitoring.
+Documentation (G3),Yes,Model card with data provenance and exclusion criteria.,Full technical file; version-controlled traceability log.
+Accountability (G4),Yes,Named withdrawal authority; escalation pathway.,Board sign-off; AI Clinical Lead with protected time.
+Monitoring (G5),No,Monthly performance audits with documented review; or contracted shared-service equivalent.,Real-time drift detection; automated alert thresholds; independent audit.

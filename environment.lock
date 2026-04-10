@@ -1,0 +1,7 @@
+# environment.lock — installed package versions
+# Generated during repository build
+pandas==3.0.1
+matplotlib==3.10.8
+# Note: nbconvert, nbclient, nbformat, jupyter_client, ipykernel
+# are required but were not available during this build (network-restricted).
+# Install from requirements.txt for full pipeline execution.

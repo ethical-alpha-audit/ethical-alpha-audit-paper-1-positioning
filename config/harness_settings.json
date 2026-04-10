@@ -1,0 +1,5 @@
+{
+  "python_hash_seed": 42,
+  "notebook_plan": "config/notebook_plan.json",
+  "expected_outputs": "config/expected_outputs.json"
+}

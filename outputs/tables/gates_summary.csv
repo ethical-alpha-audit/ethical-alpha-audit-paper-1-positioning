@@ -1,0 +1,6 @@
+Gate,Domain,Overridable,Evidence Floor (summary)
+G1,Clinical Safety and Validation,No (non-overridable),External or temporal validation relevant to the deployment population [9]; Calibration assessment beyond discrimination [10]; Defined statement of intended use and clinical actionability
+G2,Bias and Equity Oversight,Yes,Subgroup performance evaluation across socially salient characteristics [12]; Explicit statements about training-data representativeness [13]; Defined governance response for detected inequities
+G3,Documentation and Transparency,Yes,"Model card or model facts label describing data provenance, exclusion criteria, and known risks [15,16]; Rigorous version control"
+G4,Accountability and Decision Rights,Yes,Named accountable owner with explicit suspension authority; Separation between procurement incentives and deployment authorisation [18]
+G5,Lifecycle Monitoring and Drift Management,No (non-overridable),"Predefined metrics covering performance, calibration, and alert fatigue; Prespecified thresholds triggering formal review, pause, or withdrawal"

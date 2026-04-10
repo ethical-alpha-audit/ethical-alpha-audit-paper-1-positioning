@@ -1,0 +1,39 @@
+{
+  "execution_order": [
+    {
+      "name": "01_claim_traceability.ipynb",
+      "path": "notebooks/01_claim_traceability.ipynb",
+      "required": true,
+      "expected_outputs": [
+        "outputs/tables/table1_rendered.csv"
+      ]
+    },
+    {
+      "name": "02_framework_and_specification.ipynb",
+      "path": "notebooks/02_framework_and_specification.ipynb",
+      "required": true,
+      "expected_outputs": [
+        "outputs/tables/table2_rendered.csv",
+        "outputs/tables/gates_summary.csv",
+        "outputs/tables/futureai_alignment.csv",
+        "outputs/figures/illustrative_compensation_example.png"
+      ]
+    },
+    {
+      "name": "03_override_and_illustration.ipynb",
+      "path": "notebooks/03_override_and_illustration.ipynb",
+      "required": true,
+      "expected_outputs": [
+        "outputs/tables/override_summary.csv"
+      ]
+    },
+    {
+      "name": "04_release_validation.ipynb",
+      "path": "notebooks/04_release_validation.ipynb",
+      "required": true,
+      "expected_outputs": [
+        "outputs/logs/notebook_run_log.txt"
+      ]
+    }
+  ]
+}

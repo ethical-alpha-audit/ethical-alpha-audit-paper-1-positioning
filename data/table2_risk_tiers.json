@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "source": "Table 2, Paper1_Manuscript.docx (Operationalising the Gates: Risk-Tiered Thresholds section)",
+    "description": "Risk-tiered minimum evidence thresholds by governance domain",
+    "note": "Extracted from manuscript paragraph text. The structure of the gates remains constant; the height of the minimum floor varies by risk class."
+  },
+  "domains": [
+    {
+      "gate": 1,
+      "domain": "Safety (G1)",
+      "overridable": false,
+      "standard_risk_floor": "Intended-use statement; representative internal validation.",
+      "higher_risk_floor": "Prospective external validation; CONSORT-AI alignment [20]."
+    },
+    {
+      "gate": 2,
+      "domain": "Equity (G2)",
+      "overridable": true,
+      "standard_risk_floor": "Subgroup reporting across protected characteristics.",
+      "higher_risk_floor": "Intersectional analysis; documented mitigation plan; parity monitoring."
+    },
+    {
+      "gate": 3,
+      "domain": "Documentation (G3)",
+      "overridable": true,
+      "standard_risk_floor": "Model card with data provenance and exclusion criteria.",
+      "higher_risk_floor": "Full technical file; version-controlled traceability log."
+    },
+    {
+      "gate": 4,
+      "domain": "Accountability (G4)",
+      "overridable": true,
+      "standard_risk_floor": "Named withdrawal authority; escalation pathway.",
+      "higher_risk_floor": "Board sign-off; AI Clinical Lead with protected time."
+    },
+    {
+      "gate": 5,
+      "domain": "Monitoring (G5)",
+      "overridable": false,
+      "standard_risk_floor": "Monthly performance audits with documented review; or contracted shared-service equivalent.",
+      "higher_risk_floor": "Real-time drift detection; automated alert thresholds; independent audit."
+    }
+  ]
+}

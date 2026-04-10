@@ -1,0 +1,18 @@
+/* Minimal style for HTML notebook exports */
+body {
+    max-width: 900px;
+    margin: 2em auto;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 0 1em;
+}
+h1, h2, h3 { color: #1a1a2e; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+th { background-color: #f5f5f5; font-weight: 600; }
+tr:nth-child(even) { background-color: #fafafa; }
+code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+pre { background: #f4f4f4; padding: 1em; border-radius: 4px; overflow-x: auto; }
+blockquote { border-left: 4px solid #ddd; margin: 1em 0; padding: 0.5em 1em; color: #555; }
+img { max-width: 100%; height: auto; }
