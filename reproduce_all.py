@@ -3,6 +3,7 @@ reproduce_all.py — Single-command reproducibility orchestrator for Paper 1.
 
 Usage:
     python reproduce_all.py
+    python reproduce_all.py --update-expected
 
 Steps:
     1. Set PYTHONHASHSEED for deterministic execution
@@ -12,6 +13,7 @@ Steps:
     5. Export notebooks to HTML for code-free reading
 """
 
+import argparse
 import json
 import os
 import subprocess
@@ -32,6 +34,16 @@ def run_step(label, cmd):
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        description="Paper 1 reproducibility orchestrator (notebooks, manifest, validation, HTML export)."
+    )
+    parser.add_argument(
+        "--update-expected",
+        action="store_true",
+        help="Refresh config/expected_outputs.json from current outputs (non-fatal mismatches; see validate_outputs.py).",
+    )
+    args = parser.parse_args()
+
     # Step 0: Set deterministic hash seed
     settings = json.loads(
         (BASE_DIR / "config" / "harness_settings.json").read_text(encoding="utf-8")
@@ -53,9 +65,12 @@ def main():
     )
 
     # Step 3: Validate outputs
+    validate_cmd = [sys.executable, "scripts/validate_outputs.py"]
+    if args.update_expected:
+        validate_cmd.append("--update-expected")
     run_step(
         "Output validation",
-        [sys.executable, "scripts/validate_outputs.py"],
+        validate_cmd,
     )
 
     # Step 4: Export HTML

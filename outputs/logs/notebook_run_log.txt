@@ -1,67 +1,79 @@
-[INFO] Release validation at 2026-04-09T06:34:41.700615+00:00
-[PASS] Dir: manuscript
-[PASS] Dir: figures
-[PASS] Dir: supplementary
-[PASS] Dir: data
-[PASS] Dir: notebooks
-[PASS] Dir: scripts
-[PASS] Dir: config
-[PASS] Dir: outputs
-[PASS] Dir: outputs/figures
-[PASS] Dir: outputs/tables
-[PASS] Dir: outputs/logs
-[PASS] Dir: provenance
-[PASS] Dir: provenance/audit_logs
-[PASS] Dir: docs
-[PASS] Dir: docs/html
-[PASS] Dir: tests
-[PASS] Present: manuscript/Paper1_Manuscript.docx
-[PASS] Present: manuscript/Paper1_Supplementary_Materials.docx
-[PASS] Present: figures/Figure1_GovernanceGates.png
-[PASS] Present: figures/Figure2_OverrideRequestForm.png
-[PASS] MA-3 dedup OK
+[INFO] Release validation started at 2026-04-11T07:37:45.709640+00:00
+[INFO] Repository root: C:\Users\Walter.Brown\EAA_Portfolio\ethical-alpha-audit-paper-1-positioning
+[INFO] --- Directory Structure Check ---
+[PASS] Directory exists: manuscript
+[PASS] Directory exists: figures
+[PASS] Directory exists: supplementary
+[PASS] Directory exists: data
+[PASS] Directory exists: notebooks
+[PASS] Directory exists: scripts
+[PASS] Directory exists: config
+[PASS] Directory exists: outputs
+[PASS] Directory exists: outputs/figures
+[PASS] Directory exists: outputs/tables
+[PASS] Directory exists: outputs/logs
+[PASS] Directory exists: provenance
+[PASS] Directory exists: provenance/audit_logs
+[PASS] Directory exists: docs
+[PASS] Directory exists: docs/html
+[PASS] Directory exists: tests
+[INFO] --- Manuscript Bundle Check ---
+[PASS] Present: manuscript/Paper1_Manuscript.docx (SHA-256: 1692c32d16b34d91...)
+[PASS] Present: manuscript/Paper1_Supplementary_Materials.docx (SHA-256: 04e2f4819377273a...)
+[INFO] --- Figure Check ---
+[PASS] Present: figures/Figure1_GovernanceGates.png (SHA-256: 379fcbc4545873c2...)
+[PASS] Present: figures/Figure2_OverrideRequestForm.png (SHA-256: 2dd4f9fccb849d07...)
+[PASS] MA-3 correctly deduplicated (not in supplementary/)
+[INFO] --- Supplementary Materials Check ---
 [PASS] Present: supplementary/Multimedia_Appendix_1_GovernanceDashboard.png
 [PASS] Present: supplementary/Multimedia_Appendix_2_ModelFactsLabel.png
 [PASS] Present: supplementary/Multimedia_Appendix_4_AuditCodingFrame.docx
 [PASS] Present: supplementary/Multimedia_Appendix_5_EvidenceTable.docx
 [PASS] Present: supplementary/Multimedia_Appendix_6_AIUseLog.docx
 [PASS] Present: supplementary/README.md
-[PASS] Valid: data/table1_gap_audit.json
-[PASS] Valid: data/table2_risk_tiers.json
-[PASS] Valid: data/gates_specification.json
-[PASS] Valid: data/override_specification.json
-[PASS] Valid: data/futureai_mapping.json
-[PASS] Valid: data/glossary.json
-[PASS] Valid: data/epic_sepsis_illustration.json
+[INFO] --- Data File Check ---
+[PASS] Valid: data/table1_gap_audit.json (keys: metadata, columns, rows)
+[PASS] Valid: data/table2_risk_tiers.json (keys: metadata, domains)
+[PASS] Valid: data/gates_specification.json (keys: metadata, gates)
+[PASS] Valid: data/override_specification.json (keys: metadata, operative_criteria, accumulation_safeguards)
+[PASS] Valid: data/futureai_mapping.json (keys: metadata, mappings)
+[PASS] Valid: data/glossary.json (keys: metadata, terms)
+[PASS] Valid: data/epic_sepsis_illustration.json (keys: metadata, case, gate_mapping)
+[INFO] --- Provenance Check ---
 [PASS] Present: provenance/audit_logs/Paper1_Correction_Log.md
 [PASS] Present: provenance/audit_logs/Paper1_QA_Disposition_Log.md
 [PASS] Present: provenance/audit_logs/Paper1_Quality_Improvements_Log.md
 [PASS] Present: provenance/audit_logs/Paper1_Fallacy_Register.md
-[PASS] Output: outputs/tables/table1_rendered.csv
-[PASS] Output: outputs/tables/table2_rendered.csv
-[PASS] Output: outputs/tables/gates_summary.csv
-[PASS] Output: outputs/tables/futureai_alignment.csv
-[PASS] Output: outputs/tables/override_summary.csv
-[PASS] Output: outputs/figures/illustrative_compensation_example.png
-[PASS] Traced: outputs/tables/table1_rendered.csv
-[PASS] Traced: outputs/tables/table2_rendered.csv
-[PASS] Traced: outputs/tables/gates_summary.csv
-[PASS] Traced: outputs/tables/futureai_alignment.csv
-[PASS] Traced: outputs/figures/illustrative_compensation_example.png
-[PASS] Traced: outputs/tables/override_summary.csv
-[PASS] Traced: outputs/logs/notebook_run_log.txt
-[PASS] Doc: README.md
-[PASS] Doc: CITATION.cff
-[PASS] Doc: .zenodo.json
-[PASS] Doc: LICENSE
-[PASS] Doc: VERSION
-[PASS] Doc: RELEASE_NOTES_v1.0.0.md
-[PASS] Doc: docs/methods_note.md
-[PASS] Doc: docs/provenance.md
-[PASS] Doc: docs/reproducibility_statement.md
-[PASS] Doc: docs/cross_study_reference.md
-[PASS] Doc: docs/repo_integration_checklist.md
-[PASS] Doc: manuscript/README.md
-[PASS] Doc: manuscript/cover_note_for_reviewers.md
-[INFO] Passed: 64, Failed: 0
+[INFO] --- Output File Check ---
+[PASS] Present: outputs/tables/table1_rendered.csv (SHA-256: 578c4583a341c5aa...)
+[PASS] Present: outputs/tables/table2_rendered.csv (SHA-256: b2de656f3bb98b46...)
+[PASS] Present: outputs/tables/gates_summary.csv (SHA-256: 467cfb3dc1f9b32f...)
+[PASS] Present: outputs/tables/futureai_alignment.csv (SHA-256: 5a9b479727e44887...)
+[PASS] Present: outputs/tables/override_summary.csv (SHA-256: 2c26433216e91710...)
+[PASS] Present: outputs/figures/illustrative_compensation_example.png (SHA-256: 0c9412a7891c888f...)
+[INFO] --- Trace Map Check ---
+[PASS] Traced: outputs/tables/table1_rendered.csv <- notebooks/01_claim_traceability.ipynb -> ['STM-T1', 'STM-MA4', 'STM-MA5']
+[PASS] Traced: outputs/tables/table2_rendered.csv <- notebooks/02_framework_and_specification.ipynb -> ['STM-T2']
+[PASS] Traced: outputs/tables/gates_summary.csv <- notebooks/02_framework_and_specification.ipynb -> ['STM-CF2']
+[PASS] Traced: outputs/tables/futureai_alignment.csv <- notebooks/02_framework_and_specification.ipynb -> ['STM-CF5']
+[PASS] Traced: outputs/figures/illustrative_compensation_example.png <- notebooks/02_framework_and_specification.ipynb -> ['STM-CF1']
+[PASS] Traced: outputs/tables/override_summary.csv <- notebooks/03_override_and_illustration.ipynb -> ['STM-CF3']
+[PASS] Traced: outputs/logs/notebook_run_log.txt <- notebooks/04_release_validation.ipynb -> []
+[INFO] --- Documentation Check ---
+[PASS] Present and non-empty: README.md
+[PASS] Present and non-empty: CITATION.cff
+[PASS] Present and non-empty: .zenodo.json
+[PASS] Present and non-empty: LICENSE
+[PASS] Present and non-empty: VERSION
+[PASS] Present and non-empty: RELEASE_NOTES_v1.0.0.md
+[PASS] Present and non-empty: docs/methods_note.md
+[PASS] Present and non-empty: docs/provenance.md
+[PASS] Present and non-empty: docs/reproducibility_statement.md
+[PASS] Present and non-empty: docs/cross_study_reference.md
+[PASS] Present and non-empty: docs/repo_integration_checklist.md
+[PASS] Present and non-empty: manuscript/README.md
+[PASS] Present and non-empty: manuscript/cover_note_for_reviewers.md
+[INFO] --- SUMMARY ---
+[INFO] Checks passed: 64
+[INFO] Checks failed: 0
 [PASS] ALL CHECKS PASSED

@@ -1,23 +1,20 @@
 {
   "outputs/tables/table1_rendered.csv": {
-    "sha256": "8854c6b00d52833ae2409c37ad190a42e46a24ce4cc52eb7179bc59dbb9a03f0"
+    "sha256": "578c4583a341c5aa20bde05bdcfdb1bf50dfe940c3bdf1e248263d4ec722079f"
   },
   "outputs/tables/table2_rendered.csv": {
-    "sha256": "a0c0e2f696d93238dba91143e069e409e01d87fcc1083624ab767fd49b63aea1"
+    "sha256": "b2de656f3bb98b46b72c0d504bc7693ba45e1b10eaccdb607f2d93559b7514e7"
   },
   "outputs/tables/gates_summary.csv": {
-    "sha256": "11b15c8489e037604747d23d22e6c08a8861bce3f9e46b32e5bb9b570bb5cb25"
+    "sha256": "467cfb3dc1f9b32fdb4d4a305a59e15abfc3386ec220da89c58bd0b19a5714f8"
   },
   "outputs/tables/futureai_alignment.csv": {
-    "sha256": "25282f3e8d6cb81fa9faefefb33ee6b35698b64c93131285b94c4254a429fbf3"
+    "sha256": "5a9b479727e448879c4014f1fb404242d0dbaab2474c66347e1801a848a96c14"
   },
   "outputs/tables/override_summary.csv": {
-    "sha256": "24623f0310790d9d60897bf0823dbbdef2ebbc5c8bd34498ac196f3c6d06be7c"
+    "sha256": "2c26433216e917105bdbfa9815d80300212a4130bb757e8b9cf4e740349bfaba"
   },
   "outputs/figures/illustrative_compensation_example.png": {
-    "sha256": "7f961308ec87705a2da321df30694b7ff19baaea7cab30d5d461c23703245b34"
-  },
-  "outputs/logs/notebook_run_log.txt": {
-    "sha256": "2e716cd04a9bb2ce8998e720bb3283fb32d057f9d149032ab0e1a9d97f753398"
+    "sha256": "0c9412a7891c888ff0553bcfad42825b4efb7a8aabbd537a206f539e526f2c11"
   }
 }
