@@ -1,5 +1,5 @@
 # Non-Compensatory Governance Gates for Clinical AI Deployment
-[![DOI](https://zenodo.org/badge/1194627228.svg)](https://doi.org/10.5281/zenodo.19499782)
+[![DOI](https://zenodo.org/badge/1194627228.svg)](https://doi.org/10.5281/zenodo.19499783)
 
 > **Paper 1** of the Ethical Alpha Audit five-paper bundle
 >

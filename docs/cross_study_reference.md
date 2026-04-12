@@ -8,8 +8,8 @@ This document explicitly defines the boundary between this repository (Paper 1) 
 
 | Reference | Study | Repository |
 |-----------|-------|------------|
-| [25] | Brown W. "Operationalizing non-compensatory governance gates: a theory-testing simulation study." JMIR Med Inform 2026. | REPLACE_WITH_PAPER2_REPO_URL |
-| Paper 4 | Historical replay evaluation of non-compensatory AI governance | https://github.com/REPLACE_WITH_ORG/ethical-alpha-audit-paper-4-historical-replay |
+| [25] | Brown W. "Operationalizing non-compensatory governance gates: a theory-testing simulation study." JMIR Med Inform 2026. | https://github.com/ethical-alpha-audit/ethical-alpha-audit-paper-2-governance-gates-simulation |
+| Paper 4 | Historical replay evaluation of non-compensatory AI governance | https://github.com/ethical-alpha-audit/ethical-alpha-audit-paper-4-historical-replay |
 
 ## What This Repository Does NOT Reproduce
 
