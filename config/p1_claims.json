@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "source": "inputs/manuscript.docx",
+    "extracted": "2026-04-12",
+    "description": "Manuscript-grounded claims for Paper 1 positioning / decision-rule audit traceability"
+  },
+  "claims": [
+    {
+      "id": "P1-C01",
+      "statement": "Clinical AI governance instruments specify what to evaluate but commonly underspecify institutional logic that converts heterogeneous evidence into a binary deployment (go/no-go) decision.",
+      "manuscript_anchors": ["Abstract", "Introduction"]
+    },
+    {
+      "id": "P1-C02",
+      "statement": "Compensatory (weighted or composite) aggregation creates a structural risk: a serious gap in one governance domain may be offset by strong performance in others.",
+      "manuscript_anchors": ["Abstract", "Introduction (MCDA / HTA / composite indicators)"]
+    },
+    {
+      "id": "P1-C03",
+      "statement": "A targeted document audit found that, among the reviewed instruments, none specifies a complete, auditable deployment decision rule combining activation thresholds, non-compensatory logic, and constrained override governance (evidence table: Multimedia Appendix 5).",
+      "manuscript_anchors": ["Abstract", "Situating the Contribution"]
+    },
+    {
+      "id": "P1-C04",
+      "statement": "This Viewpoint proposes a non-compensatory (conjunctive) governance gate architecture across five domains, each with a minimum evidence floor that blocks deployment when failed.",
+      "manuscript_anchors": ["Abstract", "The Five Governance Gates"]
+    },
+    {
+      "id": "P1-C05",
+      "statement": "The architecture specifies risk-tiered evidence floors, a constrained override pathway for Gates 2–4, and a shared governance service model for capacity-limited institutions.",
+      "manuscript_anchors": ["Abstract", "Operationalising the Gates", "Shared Governance Service Model"]
+    },
+    {
+      "id": "P1-C06",
+      "statement": "The companion simulation study [25] is cited as showing that, under the tested heterogeneous evidence model, the gate structure substantially reduces unsafe deployment rates relative to compensatory composite scoring at a moderate threshold.",
+      "manuscript_anchors": ["Abstract", "Decision-Theoretic Rationale", "Discussion"]
+    },
+    {
+      "id": "P1-C07",
+      "statement": "A retrospective historical replay evaluation is cited as preliminary convergent evidence, with structural caveats deferred to the companion study.",
+      "manuscript_anchors": ["Abstract", "Discussion"]
+    },
+    {
+      "id": "P1-C08",
+      "statement": "The decision-rule gap audit coded four elements: (1) explicit go/no-go deployment rule, (2) aggregation logic, (3) override mechanism and constraints, (4) assignment of final deployment authority (full coding frame: Multimedia Appendix 4).",
+      "manuscript_anchors": ["Situating the Contribution: Decision-Rule Gap Audit"]
+    },
+    {
+      "id": "P1-C09",
+      "statement": "Coding was limited to explicit operational statements in instrument text; items were coded “present” only when decision logic was described in operational terms (thresholds, pass/fail, defined aggregation), not as high-level lifecycle principles alone.",
+      "manuscript_anchors": ["Situating the Contribution (audit scope)"]
+    },
+    {
+      "id": "P1-C10",
+      "statement": "Table 1 reports audit findings on the four elements for FUTURE-AI, TEHAI, NICE ESF, FDA AI-DSF, EU AI Act, ISO/IEC 42001, and the proposed Viewpoint architecture (author interpretive assessment).",
+      "manuscript_anchors": ["Audit findings", "Table 1"]
+    },
+    {
+      "id": "P1-C11",
+      "statement": "Among the reviewed instruments, the dominant pattern is rich specification of what to evaluate and lifecycle controls, with comparatively limited operational specification of how evidence is combined into a binding deployment decision.",
+      "manuscript_anchors": ["Audit findings (synthesis paragraph before Decision-Theoretic Rationale)"]
+    },
+    {
+      "id": "P1-C12",
+      "statement": "No reviewed framework combined explicit activation thresholds, non-compensatory logic, and constrained override governance within a single auditable deployment decision structure (Table 1; Multimedia Appendix 5).",
+      "manuscript_anchors": ["Audit findings"]
+    },
+    {
+      "id": "P1-C13",
+      "statement": "A conjunctive rule is argued to be appropriate when failure in any single dimension can produce irreversible harm and accountability must remain clearly attributable; the paper acknowledges a false-positive vs false-negative asymmetry.",
+      "manuscript_anchors": ["Decision-Theoretic Rationale"]
+    },
+    {
+      "id": "P1-C14",
+      "statement": "Five gates are defined with pathway outcomes; Gates 1 (clinical safety) and 5 (monitoring) are non-overridable; Gates 2–4 are overridable only under stated constrained criteria.",
+      "manuscript_anchors": ["The Five Governance Gates"]
+    },
+    {
+      "id": "P1-C15",
+      "statement": "Table 2 specifies risk-tiered minimum evidence thresholds (standard vs higher-risk floors) for each domain.",
+      "manuscript_anchors": ["Operationalising the Gates: Risk-Tiered Thresholds", "Table 2"]
+    },
+    {
+      "id": "P1-C16",
+      "statement": "The constrained override pathway requires four operative criteria to be satisfied simultaneously, plus three structural safeguards against override accumulation (provisional defaults subject to pilot calibration).",
+      "manuscript_anchors": ["Constrained Override Pathway", "Preventing Override Accumulation"]
+    },
+    {
+      "id": "P1-C17",
+      "statement": "The Epic Sepsis illustration argues likely deployment-blocking failures would surface at Gates 1, 3, and 5 under the narrative mapping; the manuscript explicitly states this does not demonstrate categorically better patient outcomes.",
+      "manuscript_anchors": ["Illustrative Application: Epic Sepsis Model"]
+    },
+    {
+      "id": "P1-C18",
+      "statement": "FUTURE-AI’s recommendations are mapped to the five gate domains as compatible complementary evidence domains rather than a competing standard.",
+      "manuscript_anchors": ["Relationship to FUTURE-AI and Recent Governance Literature"]
+    },
+    {
+      "id": "P1-C19",
+      "statement": "Preliminary PhysioNet benchmark discussion claims the gate framework discriminates governance dimensions across models and tightens with profile stringency; expanded case counts and limitations are referenced to supplementary materials.",
+      "manuscript_anchors": ["Preliminary Validation Using PhysioNet Clinical Benchmark Data"]
+    },
+    {
+      "id": "P1-C20",
+      "statement": "Scope boundaries: passing all gates is necessary but not sufficient for safe deployment; sociotechnical integration, procurement governance, and replacement of required trial evidence are out of scope.",
+      "manuscript_anchors": ["Scope and Boundaries"]
+    },
+    {
+      "id": "P1-C21",
+      "statement": "A prospective pilot is proposed with a primary endpoint (heterogeneity of evidence across gates) and secondary operational endpoints (override frequency, remediation time, failure concentration, concordance).",
+      "manuscript_anchors": ["From Theory to Empirical Testing: Pilot Design"]
+    },
+    {
+      "id": "P1-C22",
+      "statement": "Limitations include lack of prospective live evaluation, single-author audit reproducibility uncertainty, conservative coding that may overstate the gap, and provisional numeric defaults (e.g., override windows, escalation triggers) requiring empirical calibration.",
+      "manuscript_anchors": ["Limitations"]
+    }
+  ]
+}

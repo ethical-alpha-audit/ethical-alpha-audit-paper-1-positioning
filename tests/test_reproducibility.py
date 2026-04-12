@@ -73,8 +73,26 @@ def test_epic_sepsis_schema():
 
 
 def test_config_valid_json():
-    for cfg in ["harness_settings.json", "notebook_plan.json", "expected_outputs.json", "trace_map.json"]:
+    for cfg in [
+        "harness_settings.json",
+        "notebook_plan.json",
+        "expected_outputs.json",
+        "trace_map.json",
+        "p1_claims.json",
+    ]:
         _load_json(f"config/{cfg}")
+
+
+def test_p1_claims_registry():
+    d = _load_json("config/p1_claims.json")
+    assert "claims" in d
+    ids = [c["id"] for c in d["claims"]]
+    assert len(ids) == len(set(ids)), "Duplicate claim IDs"
+    assert len(d["claims"]) == 22
+    for c in d["claims"]:
+        assert c["id"].startswith("P1-C")
+        assert "statement" in c
+        assert "manuscript_anchors" in c
 
 
 def test_notebook_plan_has_four_entries():

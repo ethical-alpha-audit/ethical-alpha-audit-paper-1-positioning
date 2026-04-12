@@ -25,3 +25,7 @@ venv/
 .idea/
 *.swp
 *.swo
+
+# Optional local manuscript duplicates (attachment_requirements allow pdf; docx may be tracked)
+inputs/*.pdf
+inputs/supplementary.docx

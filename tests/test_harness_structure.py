@@ -71,6 +71,7 @@ EXPECTED_CONFIGS = [
     "config/notebook_plan.json",
     "config/expected_outputs.json",
     "config/trace_map.json",
+    "config/p1_claims.json",
 ]
 
 
@@ -125,9 +126,18 @@ def test_audit_logs():
         assert (REPO_ROOT / "provenance" / "audit_logs" / log_file).is_file(), f"Missing: {log_file}"
 
 
+def _iter_repo_paths(pattern: str):
+    """Yield paths under the repo root, excluding virtualenvs and caches."""
+    skip_parts = {".venv", "venv", "env", ".git", "__pycache__", "node_modules"}
+    for path in REPO_ROOT.rglob(pattern):
+        if any(part in skip_parts for part in path.parts):
+            continue
+        yield path
+
+
 def test_no_engine_present():
     """Paper 1 must NOT contain the governance engine."""
-    for f in REPO_ROOT.rglob("*engine*"):
+    for f in _iter_repo_paths("*engine*"):
         assert False, f"Engine file found (should not be present): {f}"
 
 

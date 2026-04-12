@@ -1,4 +1,4 @@
-[INFO] Release validation started at 2026-04-11T07:37:45.709640+00:00
+[INFO] Release validation started at 2026-04-12T14:03:00.206226+00:00
 [INFO] Repository root: C:\Users\Walter.Brown\EAA_Portfolio\ethical-alpha-audit-paper-1-positioning
 [INFO] --- Directory Structure Check ---
 [PASS] Directory exists: manuscript
