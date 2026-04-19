@@ -20,6 +20,9 @@ Thumbs.db
 env/
 venv/
 
+# Agent / audit logs (local only; do not track)
+logs/
+
 # IDE
 .vscode/
 .idea/

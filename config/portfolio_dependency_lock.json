@@ -1,0 +1,17 @@
+{
+  "snapshot_file": "eaa_system/system_snapshot.json",
+  "read_at_utc": "2026-04-19T00:00:00Z",
+  "tier0_shared_core": {
+    "repo_key": "shared-core",
+    "phase": "released",
+    "commit_sha": "59aebd53a780c90c91cf0eedee90f943a4247472"
+  },
+  "tier1_p4": {
+    "repo_key": "P4",
+    "phase": "released",
+    "commit_sha": "51d7cc1ae69be40a384a1c70fe21afc92037273c"
+  },
+  "paper1_repo_key": "P1",
+  "paper1_commit_sha": "a002b6b1177fd4f45e85dee603c1f47990d25317",
+  "notes": "Phases and SHAs copied from the portfolio system_snapshot.json at P1 hardening verification. Re-read the snapshot before promotion if sibling repos move."
+}

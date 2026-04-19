@@ -14,6 +14,8 @@ EXPECTED_DIRS = [
     "data",
     "notebooks",
     "scripts",
+    "src",
+    "src/p1_harness",
     "config",
     "outputs",
     "outputs/figures",
@@ -23,6 +25,7 @@ EXPECTED_DIRS = [
     "provenance/audit_logs",
     "docs",
     "docs/html",
+    "html",
     "tests",
 ]
 
@@ -72,6 +75,7 @@ EXPECTED_CONFIGS = [
     "config/expected_outputs.json",
     "config/trace_map.json",
     "config/p1_claims.json",
+    "config/portfolio_dependency_lock.json",
 ]
 
 
@@ -108,6 +112,24 @@ def test_configs_exist():
 def test_manuscript_files():
     assert (REPO_ROOT / "manuscript" / "Paper1_Manuscript.docx").is_file()
     assert (REPO_ROOT / "manuscript" / "Paper1_Supplementary_Materials.docx").is_file()
+
+
+def test_inputs_attachment_requirements():
+    """Portfolio attachment_requirements.json for paper-1 (manuscript + supplementary.pdf)."""
+    assert (REPO_ROOT / "inputs" / "supplementary.pdf").is_file()
+    docx = REPO_ROOT / "inputs" / "manuscript.docx"
+    pdf = REPO_ROOT / "inputs" / "manuscript.pdf"
+    assert docx.is_file() or pdf.is_file(), "Expected manuscript.docx or manuscript.pdf under inputs/"
+
+
+def test_src_table1_module_importable():
+    import sys
+
+    sys.path.insert(0, str(REPO_ROOT / "src"))
+    from p1_harness.table1_gap_audit import load_table1_data, validate_table1_schema
+
+    data = load_table1_data(REPO_ROOT)
+    validate_table1_schema(data)
 
 
 def test_figures():

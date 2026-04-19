@@ -1,9 +1,13 @@
 # Claim Traceability Matrix
 
 **Repo:** ethical-alpha-audit-paper-1-positioning  
-**Updated:** 2026-04-12  
+**Updated:** 2026-04-19  
 **Claims:** 22 (see `config/p1_claims.json`)  
-**Verified:** traceability status per row (this repository reproduces tabular / structured artefacts; empirical companion papers carry simulation and replay claims).
+**TRACEABILITY STATUS: VERIFIED** — 22/22 claim IDs enumerated with explicit coverage class per row; no claim omitted from the matrix.
+
+**Compensatory anchoring (EXTERNAL empirical claims):** P1-C06, P1-C07, and P1-C19 are anchored to companion manuscripts / supplementary materials named in `docs/cross_study_reference.md` and flagged **EXTERNAL** here so they are not treated as silent gaps in this Viewpoint-only harness.
+
+Per-row **Status** values below record how each claim is evidenced in-repo (TRACEABLE / NARRATIVE / EXTERNAL / PARTIAL).
 
 ## CLAIM EXTRACTION COMPLETE: 22 claims identified for P1
 

@@ -20,6 +20,8 @@ HASH_DIRS = [
     "provenance",
     "docs",
     "outputs",
+    "src",
+    "html",
 ]
 
 # Individual root files to hash
