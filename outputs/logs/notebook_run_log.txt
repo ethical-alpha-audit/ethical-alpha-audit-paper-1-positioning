@@ -1,4 +1,4 @@
-[INFO] Release validation started at 2026-04-12T14:11:47.531059+00:00
+[INFO] Release validation started at 2026-04-19T21:42:41.081559+00:00
 [INFO] Repository root: C:\Users\Walter.Brown\EAA_Portfolio\ethical-alpha-audit-paper-1-positioning
 [INFO] --- Directory Structure Check ---
 [PASS] Directory exists: manuscript
@@ -7,6 +7,8 @@
 [PASS] Directory exists: data
 [PASS] Directory exists: notebooks
 [PASS] Directory exists: scripts
+[PASS] Directory exists: src
+[PASS] Directory exists: src/p1_harness
 [PASS] Directory exists: config
 [PASS] Directory exists: outputs
 [PASS] Directory exists: outputs/figures
@@ -16,6 +18,7 @@
 [PASS] Directory exists: provenance/audit_logs
 [PASS] Directory exists: docs
 [PASS] Directory exists: docs/html
+[PASS] Directory exists: html
 [PASS] Directory exists: tests
 [INFO] --- Manuscript Bundle Check ---
 [PASS] Present: manuscript/Paper1_Manuscript.docx (SHA-256: 1692c32d16b34d91...)
@@ -74,6 +77,6 @@
 [PASS] Present and non-empty: manuscript/README.md
 [PASS] Present and non-empty: manuscript/cover_note_for_reviewers.md
 [INFO] --- SUMMARY ---
-[INFO] Checks passed: 64
+[INFO] Checks passed: 67
 [INFO] Checks failed: 0
 [PASS] ALL CHECKS PASSED
