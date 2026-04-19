@@ -12,6 +12,6 @@
     "commit_sha": "51d7cc1ae69be40a384a1c70fe21afc92037273c"
   },
   "paper1_repo_key": "P1",
-  "paper1_commit_sha": "1d13a17edc0480636b48301311d8ec39024128a1",
+  "paper1_commit_sha": "b46e3ae4fc1b2b479be86d4cf1039e0f35953795",
   "notes": "Phases and SHAs copied from the portfolio system_snapshot.json at P1 hardening verification. Re-read the snapshot before promotion if sibling repos move."
 }
