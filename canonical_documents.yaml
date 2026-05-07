@@ -1,0 +1,255 @@
+# canonical_documents.yaml — P1 (positioning paper)
+# Schema version: 1.0
+# Workstream: WS-CANONICAL-SOURCE-AUTOMATION
+# Disposition (per WS-AUDIT-DOF Pass 1): NEEDS-CAPTURE (3 distinct issues)
+
+paper:
+  identifier: P1
+  repo_directory: ethical-alpha-audit-paper-1-positioning
+  procedural_storage_subdir: paper-1-positioning
+
+editorial_commitments:
+  target_journal: "BMJ Health & Care Informatics"
+  submission_status: harmonised
+  variant_lock_history:
+    - locked_at: 2026-05-03
+      variant: "Paper1 BMJHCI CommunicationArticle.docx"
+      sha: ee9f2f6a7f569df85aab4e3c54434fc0c9991f2d426f15b6c5ccf8fe6e89addd
+      target_journal_at_lock: "BMJ Health & Care Informatics"
+      decision_basis: "WS-2.2 Communication-article variant chosen over v4 lineage variants; per project_ws2_2_p1_deployment_record.md"
+      retired_variants:
+        - filename: Paper1 BMJHCI v4 final.docx
+          sha: 6012040efe237775a0245f0a393f841603b345b43fa4a8afe2b589d9e3dd79c7
+          retention_location: "Desktop/May Bank Holiday/Paper 1/"
+        - filename: Paper1 BMJHCI v4 submission.docx
+          sha: 9f9b1ed452c311e559069882d863a287bcab44e5b3543600db956b9e61888edc
+          retention_location: "Desktop/May Bank Holiday/Paper 1/"
+        - filename: Paper1 BMJHCI v4.docx
+          sha: 87034c4d9f9a567b4c6e241e1eb21df601fd8a6dffe05c51fa46648bdcb9bcc7
+          retention_location: "Desktop/May Bank Holiday/Paper 1/"
+
+axes:
+  manuscript:
+    structure: single-file
+    axis_status_summary: clean
+    documents:
+      - filename: manuscript.docx
+        canonical_path: inputs/manuscript.docx
+        source_location: inputs-direct
+        canonical_sha256: ee9f2f6a7f569df85aab4e3c54434fc0c9991f2d426f15b6c5ccf8fe6e89addd
+        size_bytes: 27273
+        last_known_modified: 2026-05-03T09:24:07
+        status: present-in-canonical
+        candidate_source_location: null
+        notes: "Communication-article variant deployed via WS-2.2; bit-exact mirror in procedural storage"
+
+  supplementary:
+    structure: single-file
+    axis_status_summary: needs-authoring
+    documents:
+      - filename: supplementary.docx
+        canonical_path: inputs/supplementary.docx
+        source_location: inputs-direct
+        canonical_sha256: c44ca7a60c7872c75a047109f83bbfe848325469e9e31ffb0241ede8ab922a74
+        size_bytes: 278223
+        last_known_modified: 2026-04-12T14:54:40
+        status: present-in-canonical
+        candidate_source_location: null
+        notes: "Contains Appendices A-E (with continuations); manuscript references A, F, G, H (F/G/H tracked as separate documents below per status taxonomy)"
+      - filename: "Supplementary Appendix F (referenced-only)"
+        canonical_path: null
+        source_location: not-applicable
+        canonical_sha256: null
+        size_bytes: null
+        last_known_modified: null
+        status: referenced-but-absent-needs-authoring
+        candidate_source_location: null
+        notes: "Manuscript references Supplementary Appendix F (precondition elaboration; manuscript para 123); not present in supplementary.docx; not located in any canonical-source location surveyed; AUTHORING required per WS-AUDIT-DOF P1 finding category 2"
+      - filename: "Supplementary Appendix G (referenced-only)"
+        canonical_path: null
+        source_location: not-applicable
+        canonical_sha256: null
+        size_bytes: null
+        last_known_modified: null
+        status: referenced-but-absent-needs-authoring
+        candidate_source_location: null
+        notes: "Manuscript references Supplementary Appendix G (regulatory convergence detail; manuscript para 98); not present in supplementary.docx; not located in any canonical-source location surveyed; AUTHORING required per WS-AUDIT-DOF P1 finding category 2"
+      - filename: "Supplementary Appendix H (referenced-only)"
+        canonical_path: null
+        source_location: not-applicable
+        canonical_sha256: null
+        size_bytes: null
+        last_known_modified: null
+        status: referenced-but-absent-needs-authoring
+        candidate_source_location: null
+        notes: "Manuscript references Supplementary Appendix H (risk-tiered matrix; manuscript para 111); not present in supplementary.docx; not located in any canonical-source location surveyed; AUTHORING required per WS-AUDIT-DOF P1 finding category 2"
+
+  notebook:
+    structure: standard-notebooks-directory
+    axis_status_summary: clean
+    documents:
+      - filename: notebooks/01_claim_traceability.ipynb
+        canonical_path: notebooks/01_claim_traceability.ipynb
+        source_location: inputs-direct
+        canonical_sha256: cc5ed6535af6b30fc6b524057262d380990f158f5939f85ac76fa3d9a6edde4f
+        size_bytes: 13948
+        last_known_modified: 2026-04-19T22:47:56
+        status: present-in-canonical
+        candidate_source_location: null
+        notes: "Step 4b execution verification pending (deferred from WS-AUDIT-DOF Pass 1 P1 audit)"
+      - filename: notebooks/02_framework_and_specification.ipynb
+        canonical_path: notebooks/02_framework_and_specification.ipynb
+        source_location: inputs-direct
+        canonical_sha256: 84a3858af059d28f151ded3d7bcd263b79762f3db7205a042b69a7396b60afad
+        size_bytes: 35773
+        last_known_modified: 2026-04-19T22:47:56
+        status: present-in-canonical
+        candidate_source_location: null
+        notes: "Step 4b execution verification pending (deferred from WS-AUDIT-DOF Pass 1 P1 audit)"
+      - filename: notebooks/03_override_and_illustration.ipynb
+        canonical_path: notebooks/03_override_and_illustration.ipynb
+        source_location: inputs-direct
+        canonical_sha256: 12c47c55fdf0dc1da6f211141d5b44dd29a38ae08cbec00fc57d56967876c8d0
+        size_bytes: 15210
+        last_known_modified: 2026-04-19T22:47:56
+        status: present-in-canonical
+        candidate_source_location: null
+        notes: "Step 4b execution verification pending (deferred from WS-AUDIT-DOF Pass 1 P1 audit)"
+      - filename: notebooks/04_release_validation.ipynb
+        canonical_path: notebooks/04_release_validation.ipynb
+        source_location: inputs-direct
+        canonical_sha256: 76b71b23ee26f2cfde88c4525bc85579147f9cf875bf087b59d515dff85087c3
+        size_bytes: 22485
+        last_known_modified: 2026-04-19T22:47:56
+        status: present-in-canonical
+        candidate_source_location: null
+        notes: "Step 4b execution verification pending (deferred from WS-AUDIT-DOF Pass 1 P1 audit)"
+
+  multimedia:
+    structure: tracked-subdirectory
+    axis_status_summary: needs-deployment
+    documents:
+      - filename: Multimedia_Appendix_1_GovernanceDashboard.png
+        canonical_path: supplementary/Multimedia_Appendix_1_GovernanceDashboard.png
+        source_location: tracked-subdir
+        canonical_sha256: 9d6b0625d765b7a622ac7641ee47a3d7e53af7748b1d8d32a1b9085c708c7be1
+        size_bytes: 414259
+        last_known_modified: 2026-04-10T19:03:21
+        status: present-in-canonical
+        candidate_source_location: null
+        notes: "Tracked in git per repo supplementary/ pattern"
+      - filename: Multimedia_Appendix_2_ModelFactsLabel.png
+        canonical_path: supplementary/Multimedia_Appendix_2_ModelFactsLabel.png
+        source_location: tracked-subdir
+        canonical_sha256: 4fdf068ba7ebd46d45976e9829f3dfbf9ce5f1d5ecb756fface755519a0bfd3c
+        size_bytes: 561924
+        last_known_modified: 2026-04-10T19:03:21
+        status: present-in-canonical
+        candidate_source_location: null
+        notes: "Tracked in git per repo supplementary/ pattern"
+      - filename: Multimedia_Appendix_4_AuditCodingFrame.docx
+        canonical_path: supplementary/Multimedia_Appendix_4_AuditCodingFrame.docx
+        source_location: tracked-subdir
+        canonical_sha256: 0a3a5f4486c2efbf23f16e6bfdb8e025b203ec7e20345462249a3e1a1d75d38f
+        size_bytes: 37681
+        last_known_modified: 2026-04-10T19:03:21
+        status: present-in-canonical
+        candidate_source_location: null
+        notes: "Tracked in git per repo supplementary/ pattern"
+      - filename: Multimedia_Appendix_5_EvidenceTable.docx
+        canonical_path: supplementary/Multimedia_Appendix_5_EvidenceTable.docx
+        source_location: tracked-subdir
+        canonical_sha256: 755615cecc42cdc736a9ce825c5255633d86ce6d359a8b5a52cc4e703d24b2e1
+        size_bytes: 37385
+        last_known_modified: 2026-04-10T19:03:21
+        status: present-in-canonical
+        candidate_source_location: null
+        notes: "Tracked in git per repo supplementary/ pattern"
+      - filename: Multimedia_Appendix_6_AIUseLog.docx
+        canonical_path: supplementary/Multimedia_Appendix_6_AIUseLog.docx
+        source_location: tracked-subdir
+        canonical_sha256: 73855c7ec5cc94855e8a8810d56f5fb6fc05c1e9438ec9acb01a2f3129ca220a
+        size_bytes: 37568
+        last_known_modified: 2026-04-10T19:03:21
+        status: present-in-canonical
+        candidate_source_location: null
+        notes: "Tracked in git per repo supplementary/ pattern"
+      - filename: Multimedia_Appendix_3_OverrideRequestForm.png
+        canonical_path: supplementary/Multimedia_Appendix_3_OverrideRequestForm.png
+        source_location: not-applicable
+        canonical_sha256: null
+        size_bytes: 534947
+        last_known_modified: 2026-04-06T21:15:00
+        status: present-elsewhere-needs-deployment
+        candidate_source_location: "Desktop/CURSOR_UNPACK/MANUSCRIPTS/Paper 1 CORRECTED/supplementary/Multimedia_Appendix_3_OverrideRequestForm.png"
+        notes: "MISSING from repo; referenced 3x in manuscript; per WS-AUDIT-DOF P1 audit finding category 1; deployment to repo tracked supplementary/ dir required (sync ASSEMBLY step retrieves from candidate_source_location)"
+
+destination_workstreams:
+  - workstream: WS-Sub-P1
+    class: F.vague
+    consolidated_template_applies: true
+    paper_specific_gate_iii: "WS-Release-P1 disposition resolved (where to publish; what venue) AND F/G/H authoring-vs-locate decision resolved"
+    obligations_routed_here:
+      - "Cover letter + supplementary deployment when P1 submission happens (memo line 165-167)"
+      - "Multimedia Appendix 3 deployment from CURSOR_UNPACK to tracked supplementary/ dir"
+      - "F/G/H investigation + authoring (per WS-AUDIT-DOF P1 finding category 2)"
+      - "Procedural storage update to capture tracked supplementary/ dir contents (5 multimedia files + future Appendix 3)"
+    blocking_status: blocked-pending-trigger-remediation
+  - workstream: WS-Release-P1
+    class: F.absent
+    obligations_routed_here:
+      - "Lifecycle traversal hardening to released (currently harmonised)"
+      - "Venue submission decision"
+    blocking_status: blocked-pending-trigger-remediation
+  - workstream: WS-6
+    class: A
+    obligations_routed_here:
+      - "P1 legacy-tracked inputs/manuscript.docx cleanup (1 file; per memo line 169-170)"
+      - "Procedural storage tracked-supplementary-dir capture refinement (per WS-AUDIT-DOF Section 4 structural gap)"
+    blocking_status: in-progress
+
+sync_metadata:
+  procedural_storage_match_required: true
+  last_sync_check: null
+  paper_drift_summary: clean
+  per_axis_drift_summary:
+    manuscript: clean
+    supplementary: clean
+    notebook: clean
+    multimedia: missing-in-storage
+  per_document_drift_detail:
+    - axis: multimedia
+      filename: Multimedia_Appendix_1_GovernanceDashboard.png
+      category: missing-in-storage
+      detected_at: 2026-05-04T21:20:00
+      remediation_todo_id: null
+    - axis: multimedia
+      filename: Multimedia_Appendix_2_ModelFactsLabel.png
+      category: missing-in-storage
+      detected_at: 2026-05-04T21:20:00
+      remediation_todo_id: null
+    - axis: multimedia
+      filename: Multimedia_Appendix_4_AuditCodingFrame.docx
+      category: missing-in-storage
+      detected_at: 2026-05-04T21:20:00
+      remediation_todo_id: null
+    - axis: multimedia
+      filename: Multimedia_Appendix_5_EvidenceTable.docx
+      category: missing-in-storage
+      detected_at: 2026-05-04T21:20:00
+      remediation_todo_id: null
+    - axis: multimedia
+      filename: Multimedia_Appendix_6_AIUseLog.docx
+      category: missing-in-storage
+      detected_at: 2026-05-04T21:20:00
+      remediation_todo_id: null
+
+provenance:
+  schema_version: "1.0"
+  authored_at: 2026-05-06T20:30:00
+  authored_by: "WS-CANONICAL-SOURCE-AUTOMATION Task 1 STEP 1 deployment"
+  audit_basis:
+    - "WS-AUDIT-DOF Pass 1 P1 audit (closure summary Section 1 row 4 + Section 7 row P1)"
+    - "Phase 1 R4 audit (.tmp/WS-Sub-P4-architecture-memo-audit.md)"
+    - "Live SHA metadata gathered 2026-05-06"
+  last_revision_basis: "Initial deployment authoring per Task 1 STEP 1"
