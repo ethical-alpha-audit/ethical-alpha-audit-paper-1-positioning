@@ -1,0 +1,13 @@
+---
+description: Citation handling for philosophical work
+alwaysApply: false
+globs: ["inputs/manuscript.docx", "inputs/supplementary.docx", "**/*.bib"]
+---
+
+# Citation discipline
+
+- **Cite primary sources, not summaries.** When citing Sen, Nussbaum, Anderson, Forst, Gaus, Estlund, Korsgaard, Wood, Pettit, Vredenburgh, etc., cite the primary text. Citing a secondary summary is acceptable only when the secondary's interpretation is itself the object of discussion.
+- **Page numbers required for direct quotation.** "Sen (2009): 312" not "Sen (2009)".
+- **Distinguish citation from endorsement.** When citing a position the paper rejects, the citation is followed by the rejection, not left to imply endorsement.
+- **Bibliography format follows the target journal's house style.** Where the paper targets a specific journal (e.g. Bioethics, Philosophy & Public Affairs, Journal of Political Philosophy), bib formatting matches.
+- **No citation of one's own unpublished work as authoritative.** Working papers in the EAA portfolio (Papers 1–9) may be cross-referenced with explicit "(unpublished working paper, available at [URL])" annotation, never as a stand-alone citation.

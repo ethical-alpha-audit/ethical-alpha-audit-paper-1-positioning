@@ -1,0 +1,14 @@
+---
+description: Standards for philosophical argumentation in Papers 7, 8, 9
+alwaysApply: true
+---
+
+# Argumentation standards
+
+This repository contains a philosophical paper. Argumentation standards:
+
+- **Each premise is independently defended.** Where a paper's central conclusion follows from multiple premises (e.g. Paper 7's binariness of authorisation follows from "constitutive structure" + "subject-position determinacy"), each premise is defended on its own terms before the joint conclusion is drawn.
+- **Strongest counter-argument engaged, not strawmanned.** When considering objections, present the strongest version of the counter-argument before responding. Quoting weak versions to rebut them is a forbidden pattern.
+- **Bounded scope is stated explicitly.** Where a paper's claim is bounded (e.g. Paper 7 is bounded to routine deployment under non-voluntary subjection and fiduciary obligation, not emergency or exceptional-use regimes), the boundary is named in the abstract and re-named in the conclusion.
+- **Distinguish what is claimed from what is rejected.** Where a paper rejects a structural claim (e.g. compensation across dimensions at the admissibility layer), it should also name what it does NOT reject (e.g. compensation across evidence within a dimension; comparative reasoning at the selection layer).
+- **No compositional fallacies.** "X is good" + "Y is good" does not entail "X+Y is good". Where the paper combines normative claims, the combination is defended explicitly.
